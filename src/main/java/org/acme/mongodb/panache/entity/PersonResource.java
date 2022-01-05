@@ -29,7 +29,7 @@ import org.bson.codecs.DecoderContext;
 import org.bson.codecs.EncoderContext;
 
 //http://localhost:8080/entity/persons
-//http://localhost:8080/entity/persons/validate/guru
+//http://localhost:8080/entity/persons/validate/{name}
 
 @Path("/entity/persons")
 @Consumes("application/json")
