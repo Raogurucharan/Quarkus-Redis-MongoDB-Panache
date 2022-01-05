@@ -1,1 +1,1 @@
-# Quarkus-Redis-MongoDB-Panache
+# Quarkus-MongoDB-Panache
