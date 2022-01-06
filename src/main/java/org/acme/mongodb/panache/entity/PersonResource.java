@@ -1,32 +1,17 @@
 package org.acme.mongodb.panache.entity;
 import org.bson.types.ObjectId;
-import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoCursor;
-import org.bson.Document; 
 import java.util.List;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
-import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import io.vertx.redis.client.Response;
 import io.quarkus.redis.client.RedisClient;
-import io.quarkus.redis.client.reactive.ReactiveRedisClient;
-import io.smallrye.mutiny.Uni;
-import org.bson.Document;
-import org.bson.BsonWriter;
-import org.bson.BsonValue;
-import org.bson.BsonReader;
-import org.bson.BsonString;
-import org.bson.codecs.Codec;
-import org.bson.codecs.CollectibleCodec;
-import org.bson.codecs.DecoderContext;
-import org.bson.codecs.EncoderContext;
+
 
 //http://localhost:8080/entity/persons
 //http://localhost:8080/entity/persons/validate/{name}
